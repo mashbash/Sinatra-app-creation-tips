@@ -10,7 +10,7 @@ Understand the 2 routes that you will be using in the Sinatra app:
  
 2. Post - when you want to create something
 
-..there are 2 other routes, puts and deletes but be sure to include rack middleware when you want to use these. 
+..there are 2 other routes, puts and deletes but be sure to include Rack::MethodOverride into the middleware pipeline when you want to use these. (set :method_override, true)
 
 Plan
 - Think about what tables you might need, their relationships
