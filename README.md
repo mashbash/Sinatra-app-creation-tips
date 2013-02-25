@@ -55,6 +55,9 @@ What are _partial files?
 CSS 
 - Important to set up html tags in a manner that makes it easy for you later on to refer to when improving the look through CSS
 
+Validations 
+- ...to be updated...
+
 ============================================================================
 
 Possible errors to look out for:
