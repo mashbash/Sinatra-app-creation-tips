@@ -3,6 +3,8 @@ Sinatra-app-creation-tips
 
 Sinatra, ActiveRecord
 
+Refer to flashcards repo.
+
 --------------------------
 Understand the 2 routes that you will be using in the Sinatra app:
 
