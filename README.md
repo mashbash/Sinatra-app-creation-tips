@@ -5,8 +5,11 @@ Sinatra, ActiveRecord
 
 --------------------------
 Understand the 2 routes that you will be using in the Sinatra app:
+
 1. Get - when you want to show something
+ 
 2. Post - when you want to create something
+
 ..there are 2 other routes, puts and deletes but be sure to include rack middleware when you want to use these. 
 
 Plan
@@ -55,11 +58,15 @@ CSS
 ============================================================================
 
 Possible errors to look out for:
+
 If you do rackup and it says the port is in use, in the command line, type this:
 ps auxwww | grep ruby
 then kill the ruby process that is running to stop it
 
 *Important to name your routes properly or risk the problem of being sent to the wrong URL 
+
 *When getting fancy with AJAX, don't forget you have to update all the things you are messing around with on that page through its file too
+
 *Use sessions to keep track of a user being logged in or out, and checking if the user is authorized to view a page
+
 *When unsure of what's going wrong, rake console and puts statements in your routes are your best friends
